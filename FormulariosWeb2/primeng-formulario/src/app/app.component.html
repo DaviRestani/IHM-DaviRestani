@@ -1,3 +1,47 @@
 <router-outlet></router-outlet>
 
 <input type="text" pInputText [(ngModel)]="'nome">
+
+<p-button label="Cadastrar" (onClick)="cadastra()"></p-button>
+
+<h3>Cadastro de pessoa Física</h3>
+
+<label for="inNome">Nome</label>
+<input id="inNome" type="text" pInputText [(ngModel)="nome"]
+
+<label for="inSobrenome">Sobrenome</label>
+<input id="inSobrenome" type="text" pInputText [(ngModel)]="sobrenome">
+
+<div class="card p-5">
+    <h3>Cadastro de Pessoa Física</h3>
+
+    <p-button label="Cadastrar" (onClick)="cadastrar()"></p-button>
+</div>
+
+<div class="grid">
+    <div class="field col-6">
+    
+    </div>
+    
+    
+    <div class="field col-6">
+    
+    </div>
+</div>
+
+<div class="grid">
+    <div class="field col-6">
+        <label for="inNome">Nome</label>
+        <input id="inNome" type="text" pInputText [(ngModel)]="nome" class="w-full">
+        
+    </div>
+    
+    
+    <div class="field col-6">
+        <label for="inSobrenome">Sobrenome</label>
+        <input id="inSobrenome" type="text" pInputText [(ngModel)]="sobrenome" class="w-full">
+        
+    </div>
+</div>
+    
+    
